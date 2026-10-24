@@ -1,0 +1,19 @@
+USE master;
+GO
+
+-- Create The 'DWH' database
+CREATE DATABASE DWH_Project;
+GO
+
+USE DWH_Project;
+GO
+
+-- Create Schemas
+create schema bronze;
+GO
+
+create schema silver;
+GO
+
+create schema gold;
+GO
